@@ -1,0 +1,95 @@
+*,::after,
+::before{
+    box-sizing: border-box;
+   
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+.cart-icon
+ {
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+.header {
+    display:flex;
+    /* flex-direction:column; */
+    justify-content: space-between;
+    border:1px solid black;
+    align-items: center;
+    margin-top:30px;
+    margin-left:350px;
+    border-radius: 6px;
+    height:80px;
+    width:1200px;
+}
+.logo{
+    font-size:35px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    /* color:white; */
+    /* border:1px solid blue; */
+    margin-left:90px;
+
+}
+.list{
+    /* border:1px solid red; */
+    display:flex;
+    /* justify-content: space-between; */
+    padding-left: 10px;
+    padding-right:10px;
+    margin-top:10px;
+}
+.list .ul1{
+    /* border:1px solid black; */
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    margin-right:20px;
+    /* padding:40px; */
+    
+}
+.ul1 li{
+    /* border:1px solid green; */
+    margin:0px 30px 0px 30px;
+}
+.ul1 li a{
+    text-decoration: none;
+    color:black;
+    font-size: 20px;
+    font-weight:600;
+ }
+.ul2{
+    display: flex;
+    /* border:1px solid black; */
+    list-style: none;
+    margin-left: 40px;
+    margin-right:15px;
+}
+.ul2 li{
+    /* border:1px solid green; */
+    margin:0px 10px 0px 10px;
+}
+
+.container{
+    /* border:1px solid red; */
+}
+
