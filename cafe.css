@@ -552,6 +552,10 @@ time, mark, audio, video {
     width:110px;
     height:104px;
 }
+.reson{
+    padding-bottom:35px;
+    background-color: rgb(24, 48, 48);
+}
 .roy{
     height: 50vh;
     gap: 10px;
@@ -592,6 +596,25 @@ time, mark, audio, video {
     width:40%;
 
 }
+.cirl{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+  }
+  .circ{
+      width: 17px;
+      height:17px;
+      border-radius:50%;
+      margin:0px 3px;
+      background-color:orangered;
+  }
+  .circ1{
+      width: 10px;
+      height:10px;
+      border-radius:50%;
+      margin:0px 3px;
+      background-color: orange;
+  }
 .theam{
     background-image: url('images/sky.avif');
 }
@@ -754,6 +777,7 @@ time, mark, audio, video {
     align-items: center;
     height:600px;
     justify-content:space-between;
+    padding-top:35px;
 }
 .dorem{
     /* border:1px solid white; */
