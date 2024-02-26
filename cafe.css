@@ -533,57 +533,14 @@ time, mark, audio, video {
     /* min-width: 100%;
     min-height: 100%; */
 }
-.d82{
-    display:flex;
-    justify-content: space-around;
-    /* margin:2% 15% 10% 15%; */
-    /* border:1px solid white; */
-    width:100%;
-    flex-wrap: wrap;
-    padding:66px 90px 100px ;
-    
-}
-.d821,.d822,.d823{
-    width:276px;
-    /* height:380px; */
-    border:2px solid black;
-    border-radius:5px;
-}
-.d8211 img{
-    width:100%;
-    height:301px;
-}
-.d8212{
-    text-align:start;
-    /* width:fit-content; */
-    background-color: white;
-    height:max-content;
-    padding: 15px 0px;
-    display: flex;
-    flex-direction: column;
-    
 
-}
-.d8212 .new{
-    font-size: large;
-    /* min-width: 100%;
-    min-height: 100%; */
-    font-family: sans-serif;
-    font-weight:600;
-    padding-left: 19px;
-    padding-bottom: 7px;
-}
 .drive{
     padding-left: 19px;
     color:gray;
     font-size: 19px;
     padding-bottom: 15px;;
 }
-.d8213{
-    display:flex;
-    justify-content: space-around;
-    padding:10px;
-}
+
 .read{
     font-size: 18px;
 }
@@ -789,4 +746,69 @@ time, mark, audio, video {
     text-align: center;
     color:white;
     padding:20px 0px;
+}
+.news{
+    /* border:1px solid red; */
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height:600px;
+    justify-content:space-between;
+}
+.dorem{
+    /* border:1px solid white; */
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    justify-content: space-between;
+    height:90px;
+}
+.ln{
+    color:white;
+    font-size: 27px;
+}
+.ip{
+    /* border:1px solid red; */
+    color:gainsboro;
+    width:57%;
+    text-align: center;
+}
+.rest{
+    /* border:1px solid red; */
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    width:100%;
+    height:600px;
+    padding:0px 175px;
+    
+}
+.town{
+    /* border:1px solid white; */
+    display:flex;
+    flex-direction: column;
+    height:420px;
+}
+.drive1{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* border:1px solid yellow; */
+    height:165px;
+    background-color: white;
+    padding:13px 0px 10px 16px;
+}
+.Award{
+    /* border:1px solid red; */
+    height:86px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width:261px;
+}
+.comments{
+    display: flex;
+    /* border:1px solid red; */
+    justify-content: space-between;
+    padding-right:15px;
 }
