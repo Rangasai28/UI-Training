@@ -28,16 +28,19 @@ time, mark, audio, video {
     /* border:1px solid red; */
     display:flex;
     flex-direction: column;
-    justify-content: space-between;
-    height:720px;
+    /* justify-content: space-between; */
+    /* height:720px; */
     background-image: url('images/afe.avif');
     background-repeat: no-repeat;
     background-size: cover;
 }
    
 .uphead{
-    padding:25px 252px;
+    /* padding:25px 252px; */
      /* border:1px solid black; */
+     width:80%;
+     margin:auto;
+     padding-top:30px;
 }
 .header1{
     border:1px solid black;
@@ -92,40 +95,44 @@ time, mark, audio, video {
     justify-content: space-between;
     align-items: center;
     /* border:1px solid green; */
-    height:603px;
-    padding-left:305px;
+    /* height:603px; */
+    /* padding-left:305px; */
+    padding-bottom: 190px;
+    padding-top:113px;
+    width:68%;
+    margin:auto;
 
 }
 .container{
     /* border:1px solid red; */
-    flex-basis: 50%;
-    height:300px;
+    flex-basis: 57%;
+    /* height:300px; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     /* align-items: center; */
     
 }
 .medium{
-    font-size: x-large;
+    font-size: 34px;
     color:white;
+    margin-bottom:30px;
 }
 .wilma{
-    font-size:50px;
+    font-size:58px;
     /* border:1px solid red; */
-    width:530px;
+    /* width:530px; */
     color:white;
+    margin-bottom:25px;
 }
 .panpie{
     display: flex;
     flex-direction: column;
-    /* border:1px solid red; */
-    height:65px;
-    justify-content: space-between;
-    width:200px;
+    margin-bottom:30px;
 }
 .bur{
     display: flex;
+    margin-bottom:8px;
 }
 
 .yellow{
@@ -135,6 +142,9 @@ time, mark, audio, video {
     background-color: orange;
     margin-top:2px;
     margin-right:5px;
+}
+.be{
+    font-size:19px;
 }
 .order{
     display:flex;
@@ -160,12 +170,12 @@ time, mark, audio, video {
 }
 .sidebar {
     /* border:1px solid red; */
-    width:15%;
-    height:100%;
+    width:0%;
+    /* height:100%; */
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items:start;
+    /* justify-content: center; */
+    /* align-items:start; */
     /* padding-top:10px; */
   }
   .content {
@@ -190,8 +200,9 @@ time, mark, audio, video {
     display: flex;
     /* padding-top: 130px; */
     justify-content: space-around;
-    padding:81px 252px;
-    margin:0px;
+    /* padding:81px 252px; */
+    margin:auto;
+    width:71%;
 }  
 .d11{
     /* border:1px solid green; */
@@ -297,7 +308,7 @@ time, mark, audio, video {
 #d2 span{
     padding-left:30px;
 }
-.d2,.d61,.d81{
+.d2,.d81{
     /* border:1px solid white;  */
     text-align: center;
 }
@@ -315,7 +326,9 @@ time, mark, audio, video {
     justify-content: space-around;
     flex-wrap: wrap;
     /* margin:50px 150px 50px 150px; */
-    padding:25px 213px;
+    /* padding:25px 213px; */
+    width:75%;
+    margin:auto;
  }
  .d31{
      /* border:2px solid black; */
@@ -420,17 +433,17 @@ time, mark, audio, video {
     height:450px;
     margin-top:50px;
     background-image: url('images/d4image1.jpg');
-    margin-bottom:10px;
+    /* margin-bottom:10px; */
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;
     align-items: center;
-    padding-left:237px;
+    justify-content: center;
 }
 .d41{
     /* border:1px solid red; */
     /* margin:100px 0px 100px 180px; */
-    width:450px;
+    width:71%;
 }
 .d41 p{
     color:orange;
@@ -453,20 +466,26 @@ time, mark, audio, video {
 }
 .d5{
     /* border:2px solid red; */
-    padding-left:62px;
+    /* padding-left:62px; */
+    display:flex;
+    flex-direction: column;
+    width:71%;
+    margin:auto;
+    padding:50px 0px;
 }
 .d51{
     display: flex;
     align-items: center;
     justify-content: space-around;
     /* border:1px solid white; */
-    margin:0px 15% 0px 9%;
+    /* margin:0px 15% 0px 9%; */
    
 }
 .d512{
     /* border:1px solid blue; */
-    width:55%;
-    margin-right:200px;
+    /* width:55%; */
+    /* margin-right:200px; */
+    width:60%;
 }
 .pa51,.p51{
    color:white;
@@ -490,19 +509,27 @@ time, mark, audio, video {
     align-items: center;
     justify-content: space-around;
     /* border:1px solid white; */
-    margin:0px 18% 0px 0%;
+    /* margin:0px 18% 0px 0%; */
 }
 .d521{
     /* border:1px solid blue; */
-    width:50%;
-    margin-left:200px;
+    /* width:50%; */
+    /* margin-left:200px; */
+    width:60%;
+}
+.d61{
+    /* border:1px solid white;  */
+    text-align: center;
+    padding-bottom:40px;
 }
 .d62{
     display:flex;
     justify-content: space-around;
     align-items: center;
-    margin:2% 15% 10% 15%;
+    margin:auto;
     /* border:1px solid white; */
+    width:70%;
+    margin-bottom:115px;
 }
 .d621,.d622,.d623{
     width:320px;
@@ -607,13 +634,13 @@ time, mark, audio, video {
 }
 
 .forest{
-    width:100%;
+    width:75%;
     height:276px;
     /* border:5px solid white; */
     display: flex;
     align-items: center;
     justify-content: space-around;
-    padding:0px 166px;
+    margin:auto;
 }
 .tf,.cc,.aj,.ocean{
     color:white;
@@ -627,10 +654,14 @@ time, mark, audio, video {
 }
 .quick{
     display:flex;
-    justify-content: space-around;
+    justify-content: space-between;
     /* border:1px solid black; */
-    padding:106px 190px 42px 190px;
-    height:515px;
+    /* padding:106px 190px 42px 190px; */
+    /* height:515px; */
+    width:71%;
+    margin:auto;
+    padding-top: 100px;
+    padding-bottom: 70px;
 }
 .l{
     display:flex;
@@ -638,10 +669,11 @@ time, mark, audio, video {
     /* border:1px solid red; */
     width:25%;
     justify-content: space-between;
-    padding-bottom:65px;
+    /* padding-bottom:65px; */
 }
 .l1{
     display: flex;
+    padding-bottom:15px;
 }
 .l1>span{
     font-size: 28px;
@@ -649,13 +681,15 @@ time, mark, audio, video {
     color:white;
     padding:5px 0px 0px 5px;
 }
-.l2,.lorem{
+.l2{
     color:ghostwhite;
     font-size: 17px;
+    padding-bottom:18px;
 }
 .l3,.l4{
     display: flex;
-    justify-content: space-between;
+    /* justify-content: space-between; */
+    padding-bottom:18px;
 }
 .l31>i,.l41>i,.l51>i{
     font-size:30px;
@@ -680,11 +714,17 @@ time, mark, audio, video {
     /* border:1px solid white; */
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding-bottom:116px;
+    justify-content: space-around;
+    height:262px;
+    /* padding-bottom:116px; */
 }
-.lin,.insta,.sub{
-    padding-top:8px;
+.lin,.insta{
+    /* padding-top:8px; */
+    font-size: 25px;
+    color:ghostwhite;
+}
+.sub{
+    padding-top:1px;
     font-size: 25px;
     color:ghostwhite;
 }
@@ -693,8 +733,9 @@ time, mark, audio, video {
     flex-direction: column;
     justify-content:space-between;
     /* border:1px solid red; */
-    height:180px;
+    height:190px;
     padding-left:8px;
+    /* padding-top:28px; */
     color:ghostwhite
 }
 
@@ -703,7 +744,8 @@ time, mark, audio, video {
     width:23%;
     display: flex;
     flex-direction: column;
-    justify-content:flex-start;
+    justify-content:space-around;
+    height:250px;
 }
 .images{
     display:flex;
@@ -711,8 +753,8 @@ time, mark, audio, video {
     /* border:1px solid white; */
     justify-content: space-between;
     /* align-content:space-around; */
-    height:222px;
-     padding-top: 33px; 
+    height:172px;
+     /* padding-top: 31px;  */
 }
 
 .im1{
@@ -734,20 +776,28 @@ time, mark, audio, video {
     width:25%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
-    padding-bottom:118px;
+    justify-content: space-around;
+    /* padding-bottom:118px; */
+    height:239px;
+}
+.lorem{
+    color:ghostwhite;
+    font-size: 17px;
 }
 .tex>input{
-    height:41px;
+    height: 34px;
     width:213px;
 }
 .icons{
     display: flex;
-    justify-content: space-between;
-    padding-right: 145px;
+    /* justify-content: space-between; */
+    /* padding-right: 145px; */
 }
+
 .ic1>i{
     color:white;
+    display: inline-block;
+    padding-right:15px;
 }
 .copy{
     text-align: center;
@@ -789,9 +839,10 @@ time, mark, audio, video {
     display:flex;
     align-items: center;
     justify-content: space-around;
-    width:100%;
+    width:77%;
     height:600px;
-    padding:0px 175px;
+    margin:auto;
+    /* padding:0px 175px; */
     
 }
 .town{
