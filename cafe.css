@@ -370,7 +370,7 @@ time, mark, audio, video {
     flex-direction: column;
     justify-content:space-between;
     /* border:1px solid red; */
-    height:110px;
+    height: 130px;
     padding-top:20px;
 }
 .hot{
@@ -408,6 +408,9 @@ time, mark, audio, video {
 .bre{
     text-align: center;
     font-size: 18px;
+    max-width: 216px;
+    max-height: 40px;
+    overflow: auto;
 }
 .cost{
     text-align: center;
